@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:orientation="vertical"
+    android:background="@drawable/splashbgimage3">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="274dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/des"
+        android:src="@drawable/logo"
+        app:tint="@color/silver_gray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/slogan"
+        android:textColor="@color/silver_gray"
+        android:layout_marginBottom="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/slogan2"
+        android:textColor="@color/silver_gray"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trademark"
+        android:textColor="@color/silver_gray"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+</LinearLayout>
